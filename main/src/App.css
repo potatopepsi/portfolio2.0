@@ -1,0 +1,41 @@
+
+.grid {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1920px;
+  height: 720px;
+}
+
+.grid__item {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background: rgb(255, 237, 124);
+  /* opacity: 0;
+  transition: opacity 2s ease 0.4s, transform 0.8s ease;
+  transform: scale(1); */
+}
+
+.grid__item:hover {
+  /* opacity: 1;
+  transition: opacity 0.2s ease;
+  transform: scale(1.04); */
+}
+
+/* Global Styles */
+/* body {
+  display: flex;
+  justify-content: center;
+}
+div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+} */
+div h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
