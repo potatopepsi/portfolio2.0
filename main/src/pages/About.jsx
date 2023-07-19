@@ -1,46 +1,18 @@
 import React from 'react';
-import { Button } from './Styles';
-import avatar from "../avatar3.png";
-import {useState} from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../App.css"
-import logo from "../panda.gif";
-import {FaArrowCircleUp} from 'react-icons/fa';
-const Home = () => {
-    const [visible, setVisible] = useState(false)
-  
-    const toggleVisible = () => {
-        const scrolled = document.documentElement.scrollTop;
-        if (scrolled > 300){
-        setVisible(true)
-        } 
-        else if (scrolled <= 300){
-        setVisible(false)
-        }
-    };
-    
-    const scrollToTop = () =>{
-        window.scrollTo({
-        top: 0, 
-        behavior: 'smooth'
-        /* you can also use 'auto' behaviour
-            in place of 'smooth' */
-        });
-    };
-    window.addEventListener('scroll', toggleVisible);
+import logo from "../panda.gif"
+ 
+const About = () => {
+
     return (
         <div id="wrapper">
-            
-            <div id="top" class="grid">
-                <a href="#about" class="Link">About</a>
-                <a href="#exp" class="Link">Projects</a>
-                <a href="#contact" class="Link">Contact</a>
-                
-
-                {/* <Link class="link" to="/">Home</Link>
+            <div class="grid">
+                {/* <a href="#test" class="Link">Link</a> */}
+                <Link class="link" to="/">Home</Link>
                 <Link class="link" to="/about">About</Link>
                 <Link class="link" to="/exp">Projects</Link>
-                <Link class="link" to="/contact">Contact</Link> */}
+                <Link class="link" to="/contact">Contact</Link>
 
                 {/* <---------------------------> */}
                 <div class="grid__item"></div>
@@ -3269,92 +3241,11 @@ const Home = () => {
                 
             </div>
             <div class="body">
-            
-                <img class="gif" src={logo} alt="loading..." />
-                <h2>Hello, World!</h2>
-                
+                <img src={logo} alt="loading..." />
+                <h3>Hello</h3>
                 <h3>I am Catherine - a software engineer from Boston.</h3>
-                
-                {/* <a class="backtotop" href="#top">Back to top</a> */}
-                <Button>
-                    <FaArrowCircleUp class="backtotop" onClick={scrollToTop} 
-                    style={{display: visible ? 'inline' : 'none'}} />
-                </Button>
-                <img class="avatar" src={avatar}></img>
-                <div class="about" id="about">
-                    <div class="about-text">
-                        <h2>Greetings</h2>
-                        <p>
-                        I am based in Boston, Massachusetts and recently
-                        graduated with a Bachelor of Arts
-                        in Computer Science at Boston University.
-                        </p>
-                        <p>
-                        In my free time, I like to learn about different
-                        areas of technology. I have currently been very interested
-                        in web development. I've been trying to learn through reading
-                        through articles of developers, watching videos on aspects of web development
-                        that are appealing to users, and through browsing through experienced developer's
-                        sites such as www.awwwards.com. It has helped me to learn how to improve my technical skillset 
-                        as well as sharpening my design skillset.
-                        </p>
-                        <p>
-                        As a Software Engineer, I am enthusiastic about utilizing my
-                        expertise and knowledge to make meaningful contributions to a
-                        dynamic team. I thrive in collaborative work environments that
-                        foster the sharing of knowledge and promote innovative approaches
-                        to problem-solving. Drawing from a solid foundation in computer science 
-                        principles and a strong dedication to continuous improvement, 
-                        I am confident in my capacity to contribute significantly to the achievements
-                        of your organization.
-                        </p>
-                        <p>
-                        Throughout my various projects, I have explored a diverse range of technologies, 
-                        with a recent focus on honing my skills in full-stack web development. Through
-                        leveraging online resources, project documentation, and collaborative learning
-                        opportunities, I have strengthened my proficiency in programming languages such as C,
-                        HTML, CSS, JavaScript, and Java. Additionally, I have embraced and adopted frameworks
-                        and tools like React, Git, and Node.js, which have proved instrumental in streamlining
-                        my development processes and enabling the delivery of high-quality solutions. I wish to
-                        continually improve my own limits and expand my scope of knowledge and I am eager
-                        to apply these skills and experiences to drive productivity and success within your company.
-                        
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="exp" id="exp">
-                    <div class="exp-text">
-                        <p>Custom Gamer Profile Web Application</p>
-                        <p>Jun. 2023 - Present</p>
-                        <li>Designed a full stack user profile authentication web app catered towards users in the gaming community.</li>
-                        <li>Used React to create a visually appealing front-end interface, enabling the users to customize the look of their unique profile pages and edit and display their gaming data.</li>
-
-                        <a href="https://github.com/potatopepsi/portfolio2.0">Portfolio Website</a>
-                        <p>Jun. 2023 - Jul. 2023</p>
-                        <li>Initially designed a website using HTML and CSS to showcase my own project portfolio.</li>
-                        <li>Reworked website into a React web app to display a more visually appealing portfolio.</li>
-                        
-                        <a href="https://github.com/potatopepsi/commission_artist">Client Website for Personal Business</a>
-                        <p>Feb. 2023 - Mar. 2023</p>
-                        <li>Designed and developed a visually appealing portfolio website using HTML, CSS, and JavaScript.</li>
-                        <li>Collaborated with the artist to gather requirements, provide design recommendations, and deliver a website that effectively showcases their artwork.</li>
+                <p>Software Engineer | Frontend Developer | Backend Developer</p>
                     
-                        <a href="https://github.com/potatopepsi/c2_framework">C2 Framework</a>
-                        <p>Oct. 2022 - Dec. 2022</p>
-                        <li>Built a C2 framework in React that could store up to 10 different implants and it spoke directly to an implant on a victim machine.</li>
-                        <li>Designed an implant in C++ could make remote procedure calls, steal data from Chrome, execute commands on the terminal remotely, and encrypt data on the victim machine.</li>
-                        <li>Maintained proper documentation and reduced clutter in code by overwriting bad coding practices.</li>
-                    
-                        <a href="https://github.com/potatopepsi/discord-bot">Discord Bot</a>
-                        <p>Jul. 2022 - Aug. 2022</p>
-                        <li>Developed a bot written in Python to automate an RPG with a database to store up to 100 different users' statistics, up-to-date currency, and class information.</li>
-                        <li>Integrated user commands to allow trading between users, inventory manipulation, and make user to enemy interactions.</li>
-                    </div>
-                    
-                    
-                </div>
-                
             </div> 
 
 
@@ -3365,5 +3256,4 @@ const Home = () => {
     );
 };
  
-export default Home;
-
+export default About;
