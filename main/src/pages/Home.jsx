@@ -4,9 +4,16 @@ import avatar from "../avatar3.png";
 import {useState} from 'react';
 // import { Link } from "react-router-dom";
 import "../App.css"
+import resume from "../resume.png";
+import github from "../github.png";
+import linkedin from "../linkedin.png";
+import email from "../email.png";
 import logo from "../panda.gif";
+import logo2 from "../duckie.gif";
 import {FaArrowCircleUp} from 'react-icons/fa';
+import linkresume from "./Catherine_Quach_Resume.pdf";
 const Home = () => {
+
     const [visible, setVisible] = useState(false)
   
     const toggleVisible = () => {
@@ -27,14 +34,17 @@ const Home = () => {
             in place of 'smooth' */
         });
     };
+
     window.addEventListener('scroll', toggleVisible);
+
     return (
         <div id="wrapper">
             
             <div id="top" class="grid">
-                <a href="#about" class="Link">About</a>
-                <a href="#exp" class="Link">Projects</a>
-                <a href="#contact" class="Link">Contact</a>
+                <a href="#about" class="Link">ABOUT</a>
+                <a href="#work" class="Link">WORK</a>
+                <a href="#proj" class="Link">PROJECTS</a>
+                <a href="#contact" class="Link">CONTACT</a>
                 
 
                 {/* <Link class="link" to="/">Home</Link>
@@ -42,6 +52,573 @@ const Home = () => {
                 <Link class="link" to="/exp">Projects</Link>
                 <Link class="link" to="/contact">Contact</Link> */}
 
+                {/* <---------------------------> */}
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                {/* <---------------------------> */}
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                {/* <---------------------------> */}
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                {/* <---------------------------> */}
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                {/* <---------------------------> */}
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                {/* <---------------------------> */}
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                {/* <---------------------------> */}
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                {/* <---------------------------> */}
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                {/* <---------------------------> */}
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
+                <div class="grid__item"></div>
                 {/* <---------------------------> */}
                 <div class="grid__item"></div>
                 <div class="grid__item"></div>
@@ -3268,24 +3845,31 @@ const Home = () => {
                
                 
             </div>
-            <div class="body">
             
-                <img class="gif" src={logo} alt="loading..." />
-                <h2>Hello, World!</h2>
+            <div class="sectionOne">
+                <div class="textOne">
+                    {/* <h1>Hello, World!</h1> */}
+                    
+                    <h1>CATHERINE QUACH</h1>
+                    
+                    {/* <a class="backtotop" href="#top">Back to top</a> */}
+
+                    <Button>
+                        <FaArrowCircleUp class="backtotop" onClick={scrollToTop} 
+                        style={{display: visible ? 'inline' : 'none'}} />
+                    </Button>
+                </div>        
+            </div>
+
+            <div class="sectionTwo">
                 
-                <h3>I am Catherine - a software engineer from Boston.</h3>
-                
-                {/* <a class="backtotop" href="#top">Back to top</a> */}
-                <Button>
-                    <FaArrowCircleUp class="backtotop" onClick={scrollToTop} 
-                    style={{display: visible ? 'inline' : 'none'}} />
-                </Button>
-                <img class="avatar" src={avatar}></img>
                 <div class="about" id="about">
                     <div class="about-text">
-                        <h2>Greetings</h2>
+                        
+                        <h2>GREETINGS</h2>
+                        
                         <p>
-                        I am based in Boston, Massachusetts and recently
+                        I am a software developer based in Boston, Massachusetts and I have recently
                         graduated with a Bachelor of Arts
                         in Computer Science at Boston University.
                         </p>
@@ -3308,58 +3892,115 @@ const Home = () => {
                         I am confident in my capacity to contribute significantly to the achievements
                         of your organization.
                         </p>
-                        <p>
-                        Throughout my various projects, I have explored a diverse range of technologies, 
-                        with a recent focus on honing my skills in full-stack web development. Through
-                        leveraging online resources, project documentation, and collaborative learning
-                        opportunities, I have strengthened my proficiency in programming languages such as C,
-                        HTML, CSS, JavaScript, and Java. Additionally, I have embraced and adopted frameworks
-                        and tools like React, Git, and Node.js, which have proved instrumental in streamlining
-                        my development processes and enabling the delivery of high-quality solutions. I wish to
-                        continually improve my own limits and expand my scope of knowledge and I am eager
-                        to apply these skills and experiences to drive productivity and success within your company.
+                       
+                    </div>
+                    
+                </div>
+                <img class="avatar" src={avatar} alt="avatar"></img>
+            </div>
+
+            <div class="sectionThree">
+                <div class="work" id="work">
+                    <div class="exp-text">
+                    <img class="gif2" src={logo2} alt="loading..." />
+                    <img class="gif3" src={logo2} alt="loading..." />
+                    <h2>JOB EXPERIENCE</h2>
+                        <div class="job1">
+                            <h3>Web Developer Intern</h3>
+                            <p>Accutech Machine, Inc.</p>
+                            <p>May 2023 - Present</p>
+                            <li>Designed an internal full stack web app using MongoDB, Express, React, and Node.js, providing a centralized platform for company's employees to access essential information and resources improving the flow of data between departments.</li>
+                            <li>Created a responsive front-end interface using React, enabling users to register, log-in, and to view and manage data that they have access to.</li>
+                            <li>Implemented security measures including JWT authentication and bcrypt password hashing, to protect sensitive company information and maintain data confidentiality.</li>
+                        </div>
                         
-                        </p>
+                        <div class="job2">
+                            <h3>Software Engineer Intern</h3>
+                            <p>MK Services Inc.</p>
+                            <p>Jun. 2019 - Aug. 2020</p>
+                            <li>Handled an ERP system to manage database of customers and supplier to effectively schedule the sequence of operations.</li>
+                            <li>Facilitated the administration of user access and privileges to applications/systems, ensuring that access requests are properly authorized, appropriately documented, and accurately fulfilled.</li>
+                            <li>Assisted in debugging and troubleshooting software issues to identify and resolve bugs and errors.</li>
+                        </div>
+                        
                     </div>
                 </div>
-                
-                <div class="exp" id="exp">
+            </div>
+
+            <div class="sectionFour">
+                <div class="proj" id="proj">
                     <div class="exp-text">
-                        <p>Custom Gamer Profile Web Application</p>
+                    <img class="gif2" src={logo} alt="loading..." />
+                    <img class="gif3" src={logo} alt="loading..." />
+                    <h2>PROJECTS</h2>
+                        <div class="proj1">
+                        <p class="project-title">Custom Gamer Profile Web Application</p>
                         <p>Jun. 2023 - Present</p>
                         <li>Designed a full stack user profile authentication web app catered towards users in the gaming community.</li>
                         <li>Used React to create a visually appealing front-end interface, enabling the users to customize the look of their unique profile pages and edit and display their gaming data.</li>
 
-                        <a href="https://github.com/potatopepsi/portfolio2.0">Portfolio Website</a>
+                        </div>
+                        <div class="proj2">
+                        <a class="project-title" href="https://github.com/potatopepsi/portfolio2.0">Portfolio Website</a>
                         <p>Jun. 2023 - Jul. 2023</p>
                         <li>Initially designed a website using HTML and CSS to showcase my own project portfolio.</li>
                         <li>Reworked website into a React web app to display a more visually appealing portfolio.</li>
                         
-                        <a href="https://github.com/potatopepsi/commission_artist">Client Website for Personal Business</a>
+                        </div>
+                        <div class="proj3">
+                        <a class="project-title" href="https://github.com/potatopepsi/commission_artist">Client Website for Personal Business</a>
                         <p>Feb. 2023 - Mar. 2023</p>
                         <li>Designed and developed a visually appealing portfolio website using HTML, CSS, and JavaScript.</li>
                         <li>Collaborated with the artist to gather requirements, provide design recommendations, and deliver a website that effectively showcases their artwork.</li>
                     
-                        <a href="https://github.com/potatopepsi/c2_framework">C2 Framework</a>
+                        </div>
+                        <div class="proj4">
+                        <a class="project-title" href="https://github.com/potatopepsi/c2_framework">C2 Framework</a>
                         <p>Oct. 2022 - Dec. 2022</p>
                         <li>Built a C2 framework in React that could store up to 10 different implants and it spoke directly to an implant on a victim machine.</li>
                         <li>Designed an implant in C++ could make remote procedure calls, steal data from Chrome, execute commands on the terminal remotely, and encrypt data on the victim machine.</li>
                         <li>Maintained proper documentation and reduced clutter in code by overwriting bad coding practices.</li>
                     
-                        <a href="https://github.com/potatopepsi/discord-bot">Discord Bot</a>
+                        </div>
+                        <div class="proj5">
+                        <a class="project-title" href="https://github.com/potatopepsi/discord-bot">Discord Bot</a>
                         <p>Jul. 2022 - Aug. 2022</p>
                         <li>Developed a bot written in Python to automate an RPG with a database to store up to 100 different users' statistics, up-to-date currency, and class information.</li>
                         <li>Integrated user commands to allow trading between users, inventory manipulation, and make user to enemy interactions.</li>
-                    </div>
+                        </div>
+                        
+                        
+                        
+                    </div> 
+                </div>
+            </div>
+
+            <div class="sectionFive">
+            
+            <div name="contact" class="contact" id="contact">
+                    
+                   
+
+
+                    <a href="mailto:catherinequachx@gmail.com" class="contact-link"><img class="contact-pic2" src={email} alt=""></img></a>
+                    <a href={linkresume} class="contact-link"><img class="contact-pic2" src={resume} alt=""></img></a>
+                    <a href="https://www.github.com/potatopepsi" class="contact-link"><img class="contact-pic2" src={github} alt=""></img></a>
+                    <a href="https://linkedin.com/in/catherinequachx" class="contact-link"><img class="contact-pic2" src={linkedin} alt=""></img></a>
+                    
+                   
                     
                     
                 </div>
-                
-            </div> 
+                <div class="technologies">
+                        <div class="tech-text">
+                        <p>Languages | C++ C Python Java MATLAB Javascript HTML CSS</p>
+                        <p>Frameworks/Libraries | Node.js Express.js React</p>
+                        <p>Developer Tools | Git Postman MongoDB</p>
+                        </div>
+                    </div>
+            </div>
 
-
-
-
+            
         </div>
         
     );
